@@ -129,8 +129,8 @@ class productinfo extends StatelessWidget {
                 top: 440,
                 right: 30,
                 child: Text(
-                  product.subTitle,
-                  style: TextStyle(fontSize: 18, color: kSecondaryColor),
+                  "السعر :  ${product.price} \$",
+                  style: TextStyle(fontSize: 25, color: Colors.yellow[900]),
                 ),
               ),
             ],
@@ -139,7 +139,7 @@ class productinfo extends StatelessWidget {
             margin: EdgeInsets.all(20),
             child: Text(
               product.description,
-              style: TextStyle(color: Colors.white, fontSize: 15),
+              style: TextStyle(color: Colors.white, fontSize: 15,),
             ),
           ),
         ],
